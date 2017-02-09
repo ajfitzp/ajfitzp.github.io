@@ -1,11 +1,13 @@
 body{
-	margin:0px;
+	margin: 0px;/*
+	margin-left: 10%;
+	margin-right: 10%;*/
+	font-family: Arial;
 }
 
 div.header{
 	display: inline-block;
 
-	font-family: Arial;
 	font-weight: bold;
 	font-size: 3.5ch;
 	color: ghostwhite;
@@ -16,10 +18,17 @@ div.header{
 	padding: 1rem;
 	padding-left:25%;
 	padding-right:25%;
+	margin-bottom:30px;
 }
 div.text_para{
 	/*rgin: TT RR BB LL*/
 	margin: 10 18 10 18;
+}
+
+div.body{
+	width: 75%;
+	padding-left: 12.5%;
+	padding-right:12.5%;
 }
 
 div.footer{
@@ -30,4 +39,21 @@ div.footer{
 	padding: 1rem;
 	background-color: #efefef;
 	text-align: center;
+}
+div.footer>a{
+	text-decoration: none;
+	color: black;
+	padding-right: 25px;
+}
+
+.footbutton{
+	display: inline-block;
+}
+img.footbutton{
+	height:2rem;
+	vertical-align: middle;
+}
+div.footbutton{
+	font-weight: bold;
+	vertical-align: middle;
 }
