@@ -1,3 +1,13 @@
+@media screen and (max-width: 600px) {
+  div.footbutton {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
 html {
 	height: 100%;
 	/*box-sizing: border-box;*/
