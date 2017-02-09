@@ -26,7 +26,7 @@ html {
 	/*box-sizing: border-box;*/
 }
 body{
-	position: relative;
+	/*position: relative;*/
 	margin: 0px;/*
 	margin-left: 10%;
 	margin-right: 10%;*/
@@ -72,6 +72,7 @@ div.body{
 	margin-left: 10%;
 	margin-right:10%;
 	min-height: 65%;
+	margin-bottom: 4rem;
 }
 div.body>h1:first-child{
 	margin-top:5px;
