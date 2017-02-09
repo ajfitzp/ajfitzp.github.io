@@ -12,8 +12,8 @@ body{
 		45deg,
 		white,
 		white 10px,
-		lightgrey 10px,
-		lightgrey 20px
+		#f1f1f1 10px,
+		#f1f1f1 15px
 	);
 }
 
@@ -32,10 +32,15 @@ div.header{
 	padding-right:25%;
 	margin-bottom:30px;
 }
+
 div.text_para{
 	/*rgin: TT RR BB LL*/
 	margin: 10 18 10 18;
 }
+div.text_para>*{
+	font-size: 1.2em;
+}
+
 
 div.body{
 	background: white;
@@ -43,7 +48,10 @@ div.body{
 	padding: 2.5%;
 	margin-left: 10%;
 	margin-right:10%;
-	min-height: 75%;
+	min-height: 65%;
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
 }
 div.body>h1:first-child{
 	margin-top:5px;
