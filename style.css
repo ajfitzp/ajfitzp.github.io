@@ -1,8 +1,20 @@
+html {
+	height: 100%;
+	/*box-sizing: border-box;*/
+}
 body{
+	position: relative;
 	margin: 0px;/*
 	margin-left: 10%;
 	margin-right: 10%;*/
 	font-family: Arial;
+	background: repeating-linear-gradient(
+		45deg,
+		white,
+		white 10px,
+		lightgrey 10px,
+		lightgrey 20px
+	);
 }
 
 div.header{
@@ -26,9 +38,15 @@ div.text_para{
 }
 
 div.body{
+	background: white;
 	width: 75%;
-	padding-left: 12.5%;
-	padding-right:12.5%;
+	padding: 2.5%;
+	margin-left: 10%;
+	margin-right:10%;
+	min-height: 75%;
+}
+div.body>h1:first-child{
+	margin-top:5px;
 }
 
 div.footer{
