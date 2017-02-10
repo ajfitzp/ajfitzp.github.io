@@ -1,6 +1,7 @@
 @media screen and (max-width: 600px) {
 	div.header{
 		height: 1.75ch;
+		line-height: 200%;
 	}
 	div.body{
 		-webkit-column-count: 1; /* Chrome, Safari, Opera */
