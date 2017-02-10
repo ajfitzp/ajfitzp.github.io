@@ -1,26 +1,39 @@
 @media screen and (max-width: 600px) {
-  div.footbutton {
-    visibility: hidden;
-    clear: both;
-    float: left;
-    margin: 10px auto 5px 20px;
-    width: 28%;
-    display: none;
-  }
-  div.body{
-  	-webkit-column-count: 1; /* Chrome, Safari, Opera */
-    -moz-column-count: 1; /* Firefox */
-    column-count: 1;
-  }
-  div.footer{
-  	position: relative;
-  }
+	div.header{
+		height: 2.75rem;
+	}
+	div.body{
+		-webkit-column-count: 1; /* Chrome, Safari, Opera */
+		-moz-column-count: 1; /* Firefox */
+		column-count: 1;
+		width: 95%;
+		padding-left:5%;
+		margin-left: 0;
+		margin-right:0;
+		min-height: 75%;
+	}
+	div.footer{
+		position: relative;
+	}
+	div.footbutton {
+		visibility: hidden;
+		clear: both;
+		float: left;
+		margin: 10px auto 5px 20px;
+		width: 28%;
+		display: none;
+	}
 }
 @media not all and (max-width: 600px){
 	div.body{
 		-webkit-column-count: 2; /* Chrome, Safari, Opera */
 		-moz-column-count: 2; /* Firefox */
 		column-count: 2;
+		width: 75%;
+		padding: 2.5%;
+		margin-left: 10%;
+		margin-right:10%;
+		min-height: 65%;
 	}
 	div.footer{
   		position: absolute;
@@ -73,11 +86,6 @@ div.text_para>*{
 
 div.body{
 	background: white;
-	width: 75%;
-	padding: 2.5%;
-	margin-left: 10%;
-	margin-right:10%;
-	min-height: 65%;
 }
 div.body>h1:first-child{
 	margin-top:5px;
