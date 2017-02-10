@@ -29,6 +29,9 @@
 	}
 }
 @media not all and (max-width: 600px){
+	p#longt{
+		display:inline-block;
+	}
 	div.body{
 		-webkit-column-count: 2; /* Chrome, Safari, Opera */
 		-moz-column-count: 2; /* Firefox */
@@ -79,7 +82,6 @@ div.header{
 }
 p#longt{
 	margin: 0px;
-	display: inline-block;
 }
 
 div.text_para{
