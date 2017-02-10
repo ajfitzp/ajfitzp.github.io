@@ -1,5 +1,6 @@
 @media screen and (max-width: 600px) {
 	div.header{
+		padding-top: 0;
 		height: 1.75ch;
 		line-height: 200%;
 	}
